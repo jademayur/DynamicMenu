@@ -1,0 +1,6 @@
+@DynamicMenu_HostAddress = http://localhost:5147
+
+GET {{DynamicMenu_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
