@@ -25,6 +25,7 @@ namespace DynamicMenu.Services
                 throw new UnauthorizedAccessException("Invalid credentials");
             }
 
+
             var token = _jwtTokenService.GenerateToken(user);
             return new LoginResponseDto
             {

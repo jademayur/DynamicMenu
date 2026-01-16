@@ -12,5 +12,6 @@ namespace DynamicMenu.Data
         }
 
         public DbSet<User> users { get; set; }
+        public DbSet<Menu> Menus { get; set; }
     }
 }
